@@ -30,10 +30,16 @@ The project strictly separates the business/API logic from the presentation laye
 ## Setup Instructions
 
 1. **Clone/Extract the repository**
-2. **Install Dependencies:**
+2. **Create and activate the Environment** - thsi for powershell
+```bash
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+```
+3. **Install Dependencies:**
    ```bash
+   python -m pip install --upgrade pip
    pip install -r requirements.txt
-
+   ```
 
 How to Run Examples
 1. Command Line Interface (CLI)
