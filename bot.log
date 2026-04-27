@@ -1,0 +1,12 @@
+2026-04-27 18:31:24,169 - INFO - Initializing Binance Futures Testnet client.
+2026-04-27 18:31:34,579 - INFO - Initializing Binance Futures Testnet client.
+2026-04-27 18:32:56,192 - INFO - Initializing Binance Futures Testnet client.
+2026-04-27 18:38:15,378 - INFO - Connection verified successfully.
+2026-04-27 18:38:15,378 - INFO - Attempting to place MARKET BUY order for 0.005 BTCUSDT.
+2026-04-27 18:38:15,737 - INFO - Order successful. Order ID: 13084420009
+2026-04-27 18:38:23,882 - INFO - Connection verified successfully.
+2026-04-27 18:38:23,882 - INFO - Attempting to place LIMIT SELL order for 0.05 ETHUSDT.
+2026-04-27 18:38:24,042 - INFO - Order successful. Order ID: 8669405164
+2026-04-27 18:38:39,977 - INFO - Connection verified successfully.
+2026-04-27 18:38:39,992 - INFO - Attempting to place MARKET BUY order for 0.001 BTCUSDT.
+2026-04-27 18:38:40,159 - INFO - Order successful. Order ID: 13084421593
