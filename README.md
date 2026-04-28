@@ -162,7 +162,7 @@ Avg Price:    0.00
 ```
 
 ---
-![streamlit_ui](img\image.png)
+![streamlit_ui](img/image.png)
 
 ## 📝 Logging
 
