@@ -27,7 +27,7 @@ if submitted:
         with st.spinner("Placing order..."):
             response = place_order(client, sym, sde, typ, qty, prc)
             
-        st.success("✅ Order Placed Successfully!")
+        st.success(" Order Placed Successfully!")
         st.json({
             "Order ID": response.get('orderId'),
             "Status": response.get('status'),

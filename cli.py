@@ -36,17 +36,17 @@ def main():
         response = place_order(client, sym, side, ord_type, qty, price)
         
         # 4. Print Success
-        print("✅ SUCCESS: Order Placed Successfully!")
+        print("SUCCESS: Order Placed Successfully!")
         print(f"Order ID:     {response.get('orderId')}")
         print(f"Status:       {response.get('status')}")
         print(f"Executed Qty: {response.get('executedQty')}")
         print(f"Avg Price:    {response.get('avgPrice', 'N/A')}\n")
 
     except ValueError as ve:
-        print(f"❌ VALIDATION ERROR: {ve}")
+        print(f"VALIDATION ERROR: {ve}")
         sys.exit(1)
     except Exception as e:
-        print(f"❌ FAILURE: {e}")
+        print(f"FAILURE: {e}")
         print("Check bot.log for more details.")
         sys.exit(1)
 

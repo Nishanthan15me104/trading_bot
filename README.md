@@ -60,3 +60,12 @@ To use the graphical interface, run:
 ```Bash
 streamlit run ui.py
 ```
+
+## Challenges
+- Fix 1: The recvWindow Error (Time Sync) : Updated bot/client.py to tell the library to automatically adjust for this time difference.
+- Fix 2: The UnicodeEncodeError : Updated bot/logging_config.py to force UTF-8 encoding.
+
+
+## Improvements 
+
+- The Production/Institutional Standard: Real trading firms don't use a software offset. They use NTP (Network Time Protocol) or PTP (Precision Time Protocol) to sync their entire operating system's clock to atomic clocks with microsecond accuracy

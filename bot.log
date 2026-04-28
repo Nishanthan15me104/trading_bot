@@ -10,3 +10,9 @@
 2026-04-27 18:38:39,977 - INFO - Connection verified successfully.
 2026-04-27 18:38:39,992 - INFO - Attempting to place MARKET BUY order for 0.001 BTCUSDT.
 2026-04-27 18:38:40,159 - INFO - Order successful. Order ID: 13084421593
+2026-04-28 13:17:28,279 - INFO - Connection verified successfully.
+2026-04-28 13:17:28,281 - INFO - Attempting to place MARKET BUY order for 0.005 BTCUSDT.
+2026-04-28 13:17:28,648 - INFO - Order successful. Order ID: 13087059992
+2026-04-28 13:17:57,729 - INFO - Connection verified successfully.
+2026-04-28 13:17:57,729 - INFO - Attempting to place LIMIT SELL order for 0.05 ETHUSDT.
+2026-04-28 13:17:58,033 - INFO - Order successful. Order ID: 8670788804
