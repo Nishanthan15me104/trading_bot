@@ -50,7 +50,7 @@ This ensures **reusability, testability, and maintainability**.
 ### 1. Clone / Extract the Repository
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Nishanthan15me104/trading_bot
 cd trading_bot
 ```
 
@@ -125,7 +125,44 @@ The CLI provides:
   * avgPrice
 * Success / failure message
 
+### sample :
+```
+ PS C:\Documents\clone2\trading_bot> python cli.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.005
+
+--- Order Request Summary ---
+Symbol:   BTCUSDT
+Side:     BUY
+Type:     MARKET
+Quantity: 0.005
+-----------------------------
+
+SUCCESS: Order Placed Successfully!
+Order ID:     13087510635
+Status:       NEW
+Executed Qty: 0.0000
+Avg Price:    0.00
+
+(.venv) PS C:\Documents\clone2\trading_bot> python cli.py --symbol ETHUSDT --side SELL --type LIMIT --quantity 0.05 --price 3500
+
+--- Order Request Summary ---
+Symbol:   ETHUSDT
+Side:     SELL
+Type:     LIMIT
+Quantity: 0.05
+Price:    3500.0
+-----------------------------
+
+SUCCESS: Order Placed Successfully!
+Order ID:     8671075423
+Status:       NEW
+Executed Qty: 0.000
+Avg Price:    0.00
+
+(.venv) PS C:\Documents\clone2\trading_bot> 
+```
+
 ---
+![streamlit_ui](img\image.png)
 
 ## 📝 Logging
 
